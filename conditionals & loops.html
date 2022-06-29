@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for (var w = 1; w < 101; w ++)
+        {
+        if (w % 3 ==0 && w % 5 == 0)
+        {
+        console.log("FizzBuzz");
+        }
+        else if (w % 3 ==0)
+        {
+        console.log("Fizz");
+        }
+        else if (w % 5 ==0)
+        {
+        console.log("Buzz");
+        }
+        else{
+        console.log(w)
+        }
+    }
+        var sum=0;
+        for (var y = 0; y <1000; y ++)
+        if(y % 3 ==0 || y % 5 ===0)
+        {
+        sum+=y
+        }
+        console.log(sum)
+    
+    
+    for (var z = 1; z < 20; z++);{
+         if (z % 2 ==0)
+         console.log(z,"is even")
+         else (z%2!=0)
+         console.log(z,"is odd")
+     }
+    
+    const num = [-2, 4,-5, 6,0]
+    let largest=num[0]
+    for (var z=0; z<num.length;z++){
+    if(num[z]>largest){
+    largest=num[z] 
+    } 
+    }
+    console.log(largest)
+    
+  
+
+    function toppest(b,p){
+        if(b>p){
+            return b
+        }
+        else{
+            return p
+        }
+    }
+    console.log(toppest(10,40))
+
+function LeapYears() {
+    for(year=2000;year<=2022;year++){
+if ((year %4==0) && (0 != year % 100) || (0 == year % 400)) {
+    console.log(year + ' is a leap year');
+} else {
+    console.log(year + ' is not a leap year');
+}
+}
+}
+LeapYears();
+
+    </script>
+</body>
+</html>
